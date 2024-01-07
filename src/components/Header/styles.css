@@ -14,12 +14,11 @@ header {
 
 .navbar {
     display: flex;
+    font-size: 16px;
+    align-items: center;
 }
 
-.menu-item {
-    margin-right: 20px;
+.navbar img {
+    width: 30px;
 }
 
-.menu-active {
-    font-weight: 700;
-}
