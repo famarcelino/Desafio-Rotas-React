@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Desafio para conclusão de Módulo
+## Uso de Rotas com React Router DOM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este pequeno projeto é um exercício proposto para validar as habilidades aprendidas no módulo 3 do curso: "Formação Desenvolvedor Moderno" ministrado pelo Professor Nélio Alves da [DevSuperior](https://devsuperior.com.br).
 
-Currently, two official plugins are available:
+###Objetivo
+O objetivo desse desafio é entregar um projeto ReactJS (Vite) usando como modelo esse [Figma](https://www.figma.com/file/5cPiXC5sBQc4B4wIZKlI3i/Desafio-Rotas-React).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Esse projeto é composto por:
+- Uma página inicial (de boas-vindas) contendo três links (Início, Produtos e Sobre nós) na barra de navegação superior, ao clicar nesses links a pessoa é redirecionada para outras páginas.
+- Cada item do menu da barra superior deve ficar destacado para mostrar à pessoa que está usando o site qual é a página atual.
+- Tem um ícone de uma casa que ao ser clicada deve direcionar à página inicial.
+- Ao clicar no menu Produtos deve aparecer um submenu com categorias de produtos.
+- Nesse submenu são criadas novas rotas para exibir uma "listagem" de produtos da categoria selecionada. Observar que cada item do submenu também deve ficar destacado.
+- Ao fornecer uma página inválida a pessoa é direcionada para uma página informando que não foi encontrada.
